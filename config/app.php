@@ -168,7 +168,8 @@ return [
          */
 
         TCG\Voyager\VoyagerServiceProvider::class,
-
+        DevDojo\Chatter\ChatterServiceProvider::class,
+        GrahamCampbell\Markdown\MarkdownServiceProvider::class,
         /*
          * Application Service Providers...
          */
